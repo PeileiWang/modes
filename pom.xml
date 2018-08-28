@@ -13,6 +13,7 @@
         <module>staticfactory</module>
         <module>singleton</module>
         <module>builder</module>
+        <module>protype</module>
     </modules>
 
     <dependencies>
