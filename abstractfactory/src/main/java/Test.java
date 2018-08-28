@@ -1,6 +1,6 @@
 import factory.GankouFactory;
 import interfaces.INoodles;
-import interfaces.Produce;
+import interfaces.ProduceFactory;
 
 /**
  * Created by Wangpl
@@ -9,7 +9,7 @@ import interfaces.Produce;
 public class Test {
 
     public static void main(String[] args) {
-        Produce produce = new GankouFactory();
+        ProduceFactory produce = new GankouFactory();
         INoodles noodles = produce.get();
         noodles.description();
     }

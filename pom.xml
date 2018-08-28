@@ -12,7 +12,19 @@
         <module>abstractfactory</module>
         <module>staticfactory</module>
         <module>singleton</module>
+        <module>builder</module>
     </modules>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
