@@ -9,6 +9,7 @@
         <module name="abstractfactory" />
         <module name="builder" />
         <module name="decorator" />
+        <module name="facade" />
         <module name="protype" />
         <module name="proxy" />
         <module name="singleton" />
