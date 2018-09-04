@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="abstractfactory" />
         <module name="builder" />
+        <module name="decorator" />
         <module name="protype" />
+        <module name="proxy" />
         <module name="singleton" />
         <module name="staticfactory" />
       </profile>
