@@ -1,6 +1,7 @@
 package proxy;
 
 import interfaces.Source;
+import oldclass.OldClass;
 
 /**
  * Created by wangpeilei
@@ -8,16 +9,9 @@ import interfaces.Source;
  */
 public class Proxy implements Source {
 
-    private Source source;
-
-    public Proxy() {}
-
-    public Proxy(Source source) {
-        this.source = source;
-    }
-
     @Override
     public void eat() {
+        Source source = new OldClass();
         System.out.println("Before");
         source.eat();
         System.out.println("After");
@@ -28,11 +22,4 @@ public class Proxy implements Source {
         System.out.println("Something else");
     }
 
-    public Source getSource() {
-        return source;
-    }
-
-    public void setSource(Source source) {
-        this.source = source;
-    }
 }

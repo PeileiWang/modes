@@ -1,4 +1,3 @@
-import oldclass.OldClass;
 import proxy.Proxy;
 
 /**
@@ -7,7 +6,7 @@ import proxy.Proxy;
  */
 public class Test {
     public static void main(String[] args) {
-        Proxy proxy = new Proxy(new OldClass());
+        Proxy proxy = new Proxy();
         proxy.eat();
     }
 }
